@@ -448,6 +448,23 @@
 .himcontainerdescription{
   width: 463px;
 }
+
+.himcontainerdescription button{
+  background: #FFFFFF;
+  border: none;
+border-radius: 22px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D41443;
+
+}
 .texthowismade{
 
   
