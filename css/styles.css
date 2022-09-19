@@ -433,16 +433,45 @@
 
 .howitsmadescription{
   display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
   justify-content: space-around;
   background-image: url(../images/bghowismade.png);
   
 }
 
 .howitsmadescription img {
-  width: 501px;
-height: 501px;
+
 }
 
-.texthowismade{
+.himcontainerdescription{
   width: 463px;
+}
+.texthowismade{
+
+  
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 176%;
+
+/* or 28px */
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+
+.texthowismade2p{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 194%;
+
+/* or 27px */
+letter-spacing: 0.04em;
+
+color: #907E82;
 }
