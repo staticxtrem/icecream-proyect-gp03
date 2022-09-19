@@ -1,14 +1,8 @@
 .container-top {
   width: 1280px;
-
-  height: 664px;
-
   margin-left: auto;
-
   margin-right: auto;
-
   background: #ffb8ca;
-
   display: flex;
 }
 #menu {
