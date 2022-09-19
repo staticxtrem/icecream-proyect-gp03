@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Titan+One&display=swap');
 .container-top {
-  width: 1280px;
   margin-left: auto;
   margin-right: auto;
   background: #ffb8ca;
@@ -391,4 +391,45 @@
   align-items: center;
   position: absolute;
   top: -250px;
+}
+
+
+/* SECCION how it’s made? */
+
+.howitsmadecontainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF5F6;
+
+
+}
+
+.sloganhowitsmade {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #FFA5BA;
+}
+.tittlehowitsmade {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: #D41443;
+}
+
+.howitsmadescription{
+  display: flex;
+  
 }
