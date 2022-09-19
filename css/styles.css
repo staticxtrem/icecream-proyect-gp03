@@ -434,7 +434,7 @@
 .howitsmadescription{
   display: flex;
   justify-content: space-around;
-  background-image: url(./images/bghowismade.png);
+  background-image: url(../images/bghowismade.png);
   
 }
 
