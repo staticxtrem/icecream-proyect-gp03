@@ -1,14 +1,8 @@
 .container-top {
   width: 1280px;
-
-  height: 664px;
-
   margin-left: auto;
-
   margin-right: auto;
-
   background: #ffb8ca;
-
   display: flex;
 }
 #menu {
@@ -17,7 +11,6 @@
   list-style-type: none;
   text-decoration: none;
 }
-
 .home:hover,
 .home:focus {
   color: #d41443;
@@ -58,7 +51,6 @@
   align-items: center;
   color: #ffffff;
 }
-
 .made:hover,
 .made:focus {
   color: #d41443;
@@ -142,4 +134,261 @@
   border: #ffffff;
   font-family: "DM Sans";
   font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+.container-top {
+  height: 664px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffb8ca;
+  display: flex;
+}
+#menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+.home:hover,
+.home:focus {
+  color: #d41443;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  width: 46px;
+  height: 21px;
+  left: 343px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.us:hover,
+.us:focus {
+  color: #d41443;
+}
+.us {
+  text-decoration: none;
+  position: absolute;
+  width: 70px;
+  height: 21px;
+  left: 424px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.made:hover,
+.made:focus {
+  color: #d41443;
+}
+.made {
+  text-decoration: none;
+  position: absolute;
+  width: 117px;
+  height: 21px;
+  left: 529px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.products:hover,
+.products:focus {
+  color: #d41443;
+}
+.products {
+  text-decoration: none;
+  position: absolute;
+  width: 104px;
+  height: 21px;
+  left: 681px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.contact:hover,
+.contact:focus {
+  color: #d41443;
+}
+.contact {
+  text-decoration: none;
+  position: absolute;
+  width: 64px;
+  height: 21px;
+  left: 820px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.buy {
+  color: #d41443;
+  border-radius: 22px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.producto {
+  color: #ffffff;
+  border-radius: 20px;
+  background: #d41443;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.how {
+  color: #d41443;
+  border-radius: 20px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+/* ESTILOS PRODUCTOS */
+.productscontainer {
+  display: flex;
+  flex-direction: column;
+}
+.sloganproducts {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffa5ba;
+}
+.tittleproducts {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+.slide-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-product-container {
+  width: 368px;
+  display: flex;
+  height: 796px;
+  margin-top: 70px;
+}
+.productdescription {
+  display: flex;
+  width: 245px;
+  height: 400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.productdescription h3 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.productdescription p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 176%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin-top: 32px;
+  color: #ffffff;
+}
+.productdescription img {
+  width: 26px;
+  height: 26px;
+  margin-top: 60px;
+}
+.icecream-card {
+  display: flex;
+  margin: auto;
+  width: 368px;
+  height: 535px;
+  background: #ffb8ca;
+  border-radius: 24px;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icecoffee-card {
+  display: flex;
+  margin: auto;
+  width: 368px;
+  height: 535px;
+  background: #f0d1a5;
+  border-radius: 24px;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.milkshakes-card {
+  display: flex;
+  margin: auto;
+  width: 368px;
+  height: 535px;
+  background: #c2e297;
+  border-radius: 24px;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -250px;
 }
