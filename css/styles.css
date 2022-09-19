@@ -404,6 +404,7 @@
 
 }
 
+
 .sloganhowitsmade {
   font-family: 'Titan One';
   font-style: normal;
@@ -416,6 +417,7 @@
   
   color: #FFA5BA;
 }
+
 .tittlehowitsmade {
   font-family: 'Titan One';
   font-style: normal;
@@ -431,5 +433,16 @@
 
 .howitsmadescription{
   display: flex;
+  justify-content: space-around;
+  background-image: url(/images/bghowismade.png);
   
+}
+
+.howitsmadescription img {
+  width: 501px;
+height: 501px;
+}
+
+.texthowismade{
+  width: 463px;
 }
