@@ -1,0 +1,145 @@
+.container-top {
+  width: 1280px;
+
+  height: 664px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  background: #ffb8ca;
+
+  display: flex;
+}
+#menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.home:hover,
+.home:focus {
+  color: #d41443;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  width: 46px;
+  height: 21px;
+  left: 343px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.us:hover,
+.us:focus {
+  color: #d41443;
+}
+.us {
+  text-decoration: none;
+  position: absolute;
+  width: 70px;
+  height: 21px;
+  left: 424px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.made:hover,
+.made:focus {
+  color: #d41443;
+}
+.made {
+  text-decoration: none;
+  position: absolute;
+  width: 117px;
+  height: 21px;
+  left: 529px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.products:hover,
+.products:focus {
+  color: #d41443;
+}
+.products {
+  text-decoration: none;
+  position: absolute;
+  width: 104px;
+  height: 21px;
+  left: 681px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.contact:hover,
+.contact:focus {
+  color: #d41443;
+}
+.contact {
+  text-decoration: none;
+  position: absolute;
+  width: 64px;
+  height: 21px;
+  left: 820px;
+  top: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.buy {
+  color: #d41443;
+  border-radius: 22px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.producto {
+  color: #ffffff;
+  border-radius: 20px;
+  background: #d41443;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.how {
+  color: #d41443;
+  border-radius: 20px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
