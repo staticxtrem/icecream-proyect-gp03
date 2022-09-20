@@ -450,21 +450,22 @@
 }
 
 .himcontainerdescription button{
+
   background: #FFFFFF;
   border: none;
-border-radius: 22px;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 21px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #D41443;
+  border-radius: 22px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #D41443;
+  width: 176px;
+  height: 44px;
 
 }
+
 .texthowismade{
 
   
@@ -493,6 +494,13 @@ letter-spacing: 0.04em;
 color: #907E82;
 }
 
+.iconbuttons{
+  width: 4.43px;
+  height: 8px;
+  fill: #D41443;
+  margin-left: 10px;
+}
+
 
 .statshim{
   display: flex;
@@ -506,6 +514,7 @@ color: #907E82;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
+  Width: 317px;
 }
 
 
@@ -519,6 +528,7 @@ text-align: right;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #D41443;
+margin: 40px 0px 16px 0px;
 }
 .statshim-item p{
   
@@ -538,5 +548,4 @@ color: #000000;
   width: 50px;
   height: 50px;
   fill: #FFA5BA;
-  background-color: #FFF5F6;
 }
