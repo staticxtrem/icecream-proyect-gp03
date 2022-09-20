@@ -1,27 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Titan+One&display=swap');
 .container-top {
-  margin-left: auto;
-  margin-right: auto;
   background: #ffb8ca;
-  display: flex;
+  height: 664px;
+  padding: 40px 56px;
 }
-#menu {
+
+.nav-container{
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  Width: 541px;
+  margin: auto;
+}
+
+.icons-header{
+  Width: 199px;
+Height:50px;
+}
+
+.menu {
+  display: flex;
   list-style-type: none;
-  text-decoration: none;
+  padding: 0px;
+  
 }
-.home:hover,
-.home:focus {
+.menu-item:hover,
+.menu-item:focus {
   color: #d41443;
-}
-.home {
+} 
+.menu-item {
+  display: flex;
+  margin-right: 20px; 
+  flex-direction: row;
   text-decoration: none;
-  position: absolute;
-  width: 46px;
-  height: 21px;
-  left: 343px;
-  top: 52px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -30,7 +45,7 @@
   display: flex;
   align-items: center;
   color: #ffffff;
-}
+}/*
 .us:hover,
 .us:focus {
   color: #d41443;
@@ -272,7 +287,9 @@
   border: #ffffff;
   font-family: "DM Sans";
   font-style: normal;
-}
+} */
+
+
 /* ESTILOS PRODUCTOS */
 .productscontainer {
   display: flex;
@@ -449,7 +466,7 @@
   width: 463px;
 }
 
-.himcontainerdescription button{
+.buttons{
 
   background: #FFFFFF;
   border: none;

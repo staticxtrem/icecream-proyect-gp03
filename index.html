@@ -11,23 +11,41 @@
 
 <body>
   <header>
+
     <div class="container-top">
 
-      <nav>
-        <div id="menu">
-          <li><a class="home" href=""> Home </a></li>
-          <li><a class="us" href=""> About us </a></li>
-          <li><a class="made" href=""> How it's made? </a></li>
-          <li><a class="products" href=""> Our products </a></li>
-          <li><a class="contact" href=""> Contact </a></li>
+      <div class="nav-container">
+
+      <aside>
+        <svg class="icons-header">
+          <use href="./images/logoprincipal.svg#icon-logoprincipal">
+        </svg>
+      </aside>
+      <nav class="nav" >
+        <ul class="menu">
+          <li><a class="menu-item" href=""> Home </a></li>
+          <li><a class="menu-item" href=""> About us </a></li>
+          <li><a class="menu-item" href=""> How it's made? </a></li>
+          <li><a class="menu-item" href=""> Our products </a></li>
+          <li><a class="menu-item" href=""> Contact </a></li>
+        </ul>
+        </nav>
+         <div> 
+          <button class="buttons" type="button">Buy now
+            <svg class="iconbuttons">
+              <use href="./images/sprites.svg#icon-arrowbutton">
+            </svg>
+          </button>
         </div>
-        <div>
-          <button class="buy" type="button">Buy </button>
-        </div>
-      </nav>
-      <img src="images/slide-pic7 1.png" alt="Delicius Icecream pink" />
+      
+
+
+
+      <!-- <img src="images/slide-pic7 1.png" alt="Delicius Icecream pink" />
       <button class="producto" type="button">Products</button>
-      <button class="how" type="button">How it's made?</button>
+      <button class="how" type="button">How it's made?</button> -->
+    </div>
+    </div>
   </header>
   <main>
     <section class="productscontainer">
@@ -86,12 +104,14 @@
         <img src="images/home-pic4 1.png" alt="Cow whit milk" width="501px" height="501px">
 
         <div class="himcontainerdescription">
-          <p class="texthowismade">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget,
-              egestas eros. Maecenas eleifend erat at justo fringilla.
+          <p class="texthowismade">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus,
+            faucibus lorem eget,
+            egestas eros. Maecenas eleifend erat at justo fringilla.
             <br><br>
 
-            </p>
-            <p class="texthowismade2p">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
+          </p>
+          <p class="texthowismade2p">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris
+            rhoncus orci in imperdiet
             placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
             tincidunt.
             <br><br>
@@ -99,11 +119,11 @@
             Aliquam erat volutpat. Aenean accumsan.
           </p>
 
-          <button type="button">Read more
+          <button class="buttons" type="button">Read more
             <svg class="iconbuttons">
               <use href="./images/sprites.svg#icon-arrowbutton">
             </svg>
-          </button> 
+          </button>
         </div>
       </div>
       <div>
