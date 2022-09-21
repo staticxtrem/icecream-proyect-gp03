@@ -2,7 +2,6 @@
 
 .container-top {
   background: #ffb8ca;
-  height: 664px;
 }
 
 .nav-container {
@@ -80,10 +79,10 @@
 .container-header-contentleft {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column ;
+  flex-direction: column;
 }
 
-.buttoncontentleft{
+.buttoncontentleft {
   display: flex;
 }
 .buttonheader2 {
@@ -116,15 +115,42 @@
   width: 138px;
   height: 40px;
   border: none;
-background: #FFFFFF;
-border-radius: 20px;
+  background: #ffffff;
+  border-radius: 20px;
 }
 
 .buttonheader3:hover,
 .buttonheader3:focus {
 }
 
+.headerleftdown {
+  display: flex;
+  margin-top: 40px;
+}
 
+.containerdownpleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+    margin-bottom: 5%;
+ 
+}
+
+.headerleftdownp {
+  width: 200px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.imageheaderleft {
+  width: 213px;
+  height: 216px;
+}
 
 .container-header-contentrigth {
   display: flex;
@@ -474,10 +500,10 @@ border-radius: 20px;
   color: #ffffff;
 }
 
-.productdescription img {
+.arrowright {
   width: 26px;
   height: 26px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .icecream-card {
