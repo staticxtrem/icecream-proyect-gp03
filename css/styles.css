@@ -767,3 +767,26 @@ margin-right: auto;
   padding: 5px 5px 5px 5px;
 
 }
+.direction-text{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  color: #907E82;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+
+}
+.direction-hour{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-heigth: 30px;
+  text-align: left;
+  color: #FFA5BA;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+}
