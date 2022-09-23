@@ -689,12 +689,7 @@
 .cardsdirections {
     display: flex;
     justify-content: space-around;
-    gap: 30px;
-    background-color: #FFF5F6;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: space-around;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .containercards {
     width: 368px;
