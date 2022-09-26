@@ -686,6 +686,58 @@
   fill: #ffa5ba;
 }
 /*area cristofer*/
+/*area new cristofer*/
+.new-section{
+  justify-content: center;
+  display: flex;
+  background-color: #E5E5E5;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  }
+  .imagen-section{
+margin-top: 120px;
+margin-bottom: 24px;
+  }
+  .new-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+  justify-content: center;
+  align-items: center;
+  color: #E5E5E5;
+  margin-top: 16px;
+  }
+  .new-order{
+  width: 968px;
+  height: 138px;
+  margin-bottom: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FAFAFA;
+  }
+  .new-text{
+  width: 750px;
+  height: 52px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-left: 80px;
+  }
+  .vector{
+    width: 821px;
+    margin-top: -40px;
+    border: 1px solid #E1E1E1;
+    margin-left: 60px;
+  }
+
+/*area dicections cristofer*/
+
 .cardsdirections {
     display: flex;
     justify-content: space-around;
