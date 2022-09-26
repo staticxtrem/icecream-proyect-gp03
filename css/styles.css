@@ -760,7 +760,6 @@
     color: #000000;
     margin: 0px 0px 0px 40px;
     padding: 5px 5px 5px 5px;
-  
   }
   .direction-text{
     font-family: 'DM Sans';
@@ -772,7 +771,6 @@
     color: #907E82;
     margin: 0px 0px 0px 40px;
     padding: 5px 5px 5px 5px;
-  
   }
   .direction-hour{
     font-family: 'DM Sans';
@@ -789,4 +787,46 @@
   width: 300px;
   border: 1px solid #E1E1E1;
   margin: 25px 40px 25px 40px;
+}
+.container-buttom-direction{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 61px;
+}
+.button-direction-4{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 198px;
+  height: 44px;
+  background: #D41342;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+}
+.button-direction-5{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #D41342;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 168px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
 }
